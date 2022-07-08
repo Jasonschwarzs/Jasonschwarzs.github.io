@@ -1,0 +1,1318 @@
+[
+    {
+        "name":"Arube",
+        "developed or not":"No",
+        "average GDP":27118,
+        "average life expectancy":76,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Afghanistan",
+        "developed or not":"No",
+        "average GDP":598,
+        "average life expectancy":58,
+        "adult literacy rate":37
+    } ,
+    {
+        "name":"Albania",
+        "developed or not":"No",
+        "average GDP":6375,
+        "average life expectancy":78,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Algeria",
+        "developed or not":"No",
+        "average GDP":3701,
+        "average life expectancy":77,
+        "adult literacy rate":81
+    },
+    {
+        "name":"Argentina",
+        "developed or not":"No",
+        "average GDP":"10658",
+        "average life expectancy":76,
+        "adult literacy rate":99
+    },
+    {
+        "name":"United Arab Emirates",
+        "developed or not":"No",
+        "average GDP":42884,
+        "average life expectancy":78,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Oman",
+        "developed or not":"No",
+        "average GDP":18299,
+        "average life expectancy":77,
+        "adult literacy rate":96
+    },
+    {
+        "name":"Azerbajian",
+        "developed or not":"No",
+        "average GDP":5452,
+        "average life expectancy":73,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Egypt",
+        "developed or not":"No",
+        "average GDP":3926,
+        "average life expectancy":69,
+        "adult literacy rate":71
+    },
+    {
+        "name":"Ethiopia",
+        "developed or not":"No",
+        "average GDP":996,
+        "average life expectancy":42,
+        "adult literacy rate":52
+    },
+    {
+        "name":"Ireland",
+        "developed or not":"Yes",
+        "average GDP":99013,
+        "average life expectancy":82,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Estonia",
+        "developed or not":"Yes",
+        "average GDP":27282,
+        "average life expectancy":73,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Andorra",
+        "developed or not":"Yes",
+        "average GDP":"41873",
+        "average life expectancy":83,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Angola",
+        "developed or not":"No",
+        "average GDP":"2331",
+        "average life expectancy":52,
+        "adult literacy rate":66
+    },
+    {
+        "name":"Antigua and Barbuda",
+        "developed or not":"No",
+        "average GDP":"14685",
+        "average life expectancy":77,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Austria",
+        "developed or not":"Yes",
+        "average GDP":53368,
+        "average life expectancy":81,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Australia",
+        "developed or not":"Yes",
+        "average GDP":63477,
+        "average life expectancy":83,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Barbados",
+        "developed or not":"Yes",
+        "average GDP":16875,
+        "average life expectancy":79,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Papua New Guinea",
+        "developed or not":"No",
+        "average GDP":3005,
+        "average life expectancy":64,
+        "adult literacy rate":62
+    },
+    {
+        "name":"Pakistan",
+        "developed or not":"No",
+        "average GDP":1562,
+        "average life expectancy":67,
+        "adult literacy rate":58
+    },
+    {
+        "name":"Bahamas",
+        "developed or not":"No",
+        "average GDP":28579,
+        "average life expectancy":74,
+        "adult literacy rate":95
+    },
+    {
+        "name":"Paraguay",
+        "developed or not":"No",
+        "average GDP":5207,
+        "average life expectancy":74,
+        "adult literacy rate":95
+    },
+    {
+        "name":"Palestine",
+        "developed or not":"No",
+        "average GDP":3400,
+        "average life expectancy":74,
+        "adult literacy rate":97
+    },
+    {
+        "name":"Bahrain",
+        "developed or not":"No",
+        "average GDP":26136,
+        "average life expectancy":77,
+        "adult literacy rate":91
+    },
+    {
+        "name":"Panama",
+        "developed or not":"No",
+        "average GDP":14664,
+        "average life expectancy":78,
+        "adult literacy rate":96
+    },
+    {
+        "name":"Brazil",
+        "developed or not":"No",
+        "average GDP":7564,
+        "average life expectancy":76,
+        "adult literacy rate":93
+    },
+    {
+        "name":"Belarus",
+        "developed or not":"No",
+        "average GDP":7319,
+        "average life expectancy":74,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Bulgaria",
+        "developed or not":"No",
+        "average GDP":11684,
+        "average life expectancy":73,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Benin",
+        "developed or not":"No",
+        "average GDP":1398,
+        "average life expectancy":62,
+        "adult literacy rate":42
+    },
+    {
+        "name":"Belglum",
+        "developed or not":"Yes",
+        "average GDP":51873,
+        "average life expectancy":81,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Iceland",
+        "developed or not":"Yes",
+        "average GDP":69033,
+        "average life expectancy":83,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Puerto Rico",
+        "developed or not":"Yes",
+        "average GDP":34173,
+        "average life expectancy":80,
+        "adult literacy rate":92
+    },
+    {
+        "name":"Poland",
+        "developed or not":"No",
+        "average GDP":17265,
+        "average life expectancy":76,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Bolivia",
+        "developed or not":"No",
+        "average GDP":3369,
+        "average life expectancy":71,
+        "adult literacy rate":92
+    },
+    {
+        "name":"Belize",
+        "developed or not":"No",
+        "average GDP":4177,
+        "average life expectancy":74,
+        "adult literacy rate":77
+    },
+    {
+        "name":"Botswana",
+        "developed or not":"No",
+        "average GDP":7417,
+        "average life expectancy":69,
+        "adult literacy rate":87
+    },
+    {
+        "name":"Bhutan",
+        "developed or not":"No",
+        "average GDP":3185,
+        "average life expectancy":72,
+        "adult literacy rate":67
+    },
+    {
+        "name":"Burkina Faso",
+        "developed or not":"No",
+        "average GDP":887,
+        "average life expectancy":61,
+        "adult literacy rate":39
+    },
+    {
+        "name":"Burundi",
+        "developed or not":"No",
+        "average GDP":272,
+        "average life expectancy":61,
+        "adult literacy rate":68
+    },
+    {
+        "name":"Equatorial",
+        "developed or not":"No",
+        "average GDP":8745,
+        "average life expectancy":59,
+        "adult literacy rate":94
+    },
+    {
+        "name":"Denmark",
+        "developed or not":"Yes",
+        "average GDP":67590,
+        "average life expectancy":81,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Germany",
+        "developed or not":"Yes",
+        "average GDP":50712,
+        "average life expectancy":80,
+        "adult literacy rate":100
+    },
+    {
+        "name":"East Timor",
+        "developed or not":"No",
+        "average GDP":1758,
+        "average life expectancy":69,
+        "adult literacy rate":68
+    },
+    {
+        "name":"Togo",
+        "developed or not":"No",
+        "average GDP":992,
+        "average life expectancy":61,
+        "adult literacy rate":67
+    },
+    {
+        "name":"The Fominican",
+        "developed or not":"No",
+        "average GDP":8986,
+        "average life expectancy":74,
+        "adult literacy rate":94
+    },
+    {
+        "name":"Dominic",
+        "developed or not":"No",
+        "average GDP":7691,
+        "average life expectancy":76,
+        "adult literacy rate":94
+    },
+    {
+        "name":"Russia",
+        "developed or not":"No",
+        "average GDP":"12173",
+        "average life expectancy":71,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Ecuador",
+        "developed or not":"No",
+        "average GDP":5979,
+        "average life expectancy":77,
+        "adult literacy rate":94
+    },
+    {
+        "name":"Eritrea",
+        "developed or not":"No",
+        "average GDP":631,
+        "average life expectancy":66,
+        "adult literacy rate":77
+    },
+    {
+        "name":"France",
+        "developed or not":"Yes",
+        "average GDP":43376,
+        "average life expectancy":82,
+        "adult literacy rate":99
+    },
+    {
+        "name":"The Philippines",
+        "developed or not":"No",
+        "average GDP":3570,
+        "average life expectancy":71,
+        "adult literacy rate":96
+    },
+    {
+        "name":"Fiji Islands",
+        "developed or not":"No",
+        "average GDP":5147,
+        "average life expectancy":67,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Finland",
+        "developed or not":"Yes",
+        "average GDP":53869,
+        "average life expectancy":82,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Cape Verde",
+        "developed or not":"No",
+        "average GDP":3455,
+        "average life expectancy":73,
+        "adult literacy rate":87
+    },
+    {
+        "name":"The Gambia",
+        "developed or not":"No",
+        "average GDP":812,
+        "average life expectancy":62,
+        "adult literacy rate":51
+    },
+    {
+        "name":"Cango(Brazzaville)",
+        "developed or not":"No",
+        "average GDP":2677,
+        "average life expectancy":64,
+        "adult literacy rate":80
+    },
+    {
+        "name":"Congo(Kinshasa)",
+        "developed or not":"No",
+        "average GDP":609,
+        "average life expectancy":60,
+        "adult literacy rate":77
+    },
+    {
+        "name":"Colombia",
+        "developed or not":"No",
+        "average GDP":6200,
+        "average life expectancy":77,
+        "adult literacy rate":96
+    },
+    {
+        "name":"Costa Rica",
+        "developed or not":"No",
+        "average GDP":12408,
+        "average life expectancy":80,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Grenada",
+        "developed or not":"No",
+        "average GDP":9856,
+        "average life expectancy":72,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Georgia",
+        "developed or not":"No",
+        "average GDP":5014,
+        "average life expectancy":73,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Guyana",
+        "developed or not":"No",
+        "average GDP":9644,
+        "average life expectancy":70,
+        "adult literacy rate":86
+    },
+    {
+        "name":"Kazakhstan",
+        "developed or not":"No",
+        "average GDP":10034,
+        "average life expectancy":71,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Haiti",
+        "developed or not":"No",
+        "average GDP":1765,
+        "average life expectancy":53,
+        "adult literacy rate":62
+    },
+    {
+        "name":"South Korea",
+        "developed or not":"Yes",
+        "average GDP":34801,
+        "average life expectancy":82,
+        "adult literacy rate":97
+    },
+    {
+        "name":"The Netherland",
+        "developed or not":"Yes",
+        "average GDP":57956,
+        "average life expectancy":81,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Montenegro",
+        "developed or not":"No",
+        "average GDP":9350,
+        "average life expectancy":75,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Honduras",
+        "developed or not":"No",
+        "average GDP":2790,
+        "average life expectancy":75,
+        "adult literacy rate":89
+    },
+    {
+        "name":"Kiribati",
+        "developed or not":"No",
+        "average GDP":1706,
+        "average life expectancy":68,
+        "adult literacy rate":95
+    },
+    {
+        "name":"Djibouti",
+        "developed or not":"No",
+        "average GDP":3581,
+        "average life expectancy":67,
+        "adult literacy rate":86
+    },
+    {
+        "name":"Kyrgyzstan",
+        "developed or not":"No",
+        "average GDP":1276,
+        "average life expectancy":71,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Guinea",
+        "developed or not":"No",
+        "average GDP":1230,
+        "average life expectancy":61,
+        "adult literacy rate":40
+    },
+    {
+        "name":"Guinea-Bissau",
+        "developed or not":"No",
+        "average GDP":878,
+        "average life expectancy":58,
+        "adult literacy rate":46
+    },
+    {
+        "name":"Canada",
+        "developed or not":"Yes",
+        "average GDP":52065,
+        "average life expectancy":81,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Ghana",
+        "developed or not":"No",
+        "average GDP":2441,
+        "average life expectancy":64,
+        "adult literacy rate":79
+    },
+    {
+        "name":"Gabon",
+        "developed or not":"No",
+        "average GDP":8976,
+        "average life expectancy":66,
+        "adult literacy rate":85
+    },
+    {
+        "name":"Cambodia",
+        "developed or not":"No",
+        "average GDP":1654,
+        "average life expectancy":70,
+        "adult literacy rate":81
+    },
+    {
+        "name":"Czech",
+        "developed or not":"Yes",
+        "average GDP":26401,
+        "average life expectancy":78,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Zimbabwe",
+        "developed or not":"No",
+        "average GDP":2102,
+        "average life expectancy":61,
+        "adult literacy rate":89
+    },
+    {
+        "name":"Cameroon",
+        "developed or not":"No",
+        "average GDP":1655,
+        "average life expectancy":59,
+        "adult literacy rate":77
+    },
+    {
+        "name":"Qatar",
+        "developed or not":"No",
+        "average GDP":68581,
+        "average life expectancy":80,
+        "adult literacy rate":93
+    },
+    {
+        "name":"Comoros",
+        "developed or not":"No",
+        "average GDP":1406,
+        "average life expectancy":64,
+        "adult literacy rate":59
+    },
+    {
+        "name":"Ivory Coast",
+        "developed or not":"No",
+        "average GDP":2522,
+        "average life expectancy":58,
+        "adult literacy rate":90
+    },
+    {
+        "name":"Kuwait",
+        "developed or not":"No",
+        "average GDP":28579,
+        "average life expectancy":75,
+        "adult literacy rate":96
+    },
+    {
+        "name":"Croatia",
+        "developed or not":"No",
+        "average GDP":17394,
+        "average life expectancy":77,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Kenya",
+        "developed or not":"No",
+        "average GDP":2205,
+        "average life expectancy":66,
+        "adult literacy rate":82
+    },
+    {
+        "name":"Latvia",
+        "developed or not":"Yes",
+        "average GDP":20675,
+        "average life expectancy":75,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Lesotho",
+        "developed or not":"No",
+        "average GDP":1181,
+        "average life expectancy":54,
+        "adult literacy rate":77
+    },
+    {
+        "name":"Lao",
+        "developed or not":"No",
+        "average GDP":2514,
+        "average life expectancy":68,
+        "adult literacy rate":85
+    },
+    {
+        "name":"Lithuania",
+        "developed or not":"Yes",
+        "average GDP":23445,
+        "average life expectancy":74,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Liberia",
+        "developed or not":"No",
+        "average GDP":724,
+        "average life expectancy":64,
+        "adult literacy rate":48
+    },
+    {
+        "name":"Libya",
+        "developed or not":"No",
+        "average GDP":4822,
+        "average life expectancy":73,
+        "adult literacy rate":86
+    },
+    {
+        "name":"Rwanda",
+        "developed or not":"No",
+        "average GDP":859,
+        "average life expectancy":69,
+        "adult literacy rate":73
+    },
+    {
+        "name":"Romania",
+        "developed or not":"No",
+        "average GDP":14667,
+        "average life expectancy":74,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Madagascar",
+        "developed or not":"No",
+        "average GDP":502,
+        "average life expectancy":67,
+        "adult literacy rate":77
+    },
+    {
+        "name":"Maldives",
+        "developed or not":"No",
+        "average GDP":13190,
+        "average life expectancy":79,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Malta",
+        "developed or not":"Yes",
+        "average GDP":33329,
+        "average life expectancy":82,
+        "adult literacy rate":95
+    },
+    {
+        "name":"Malawi",
+        "developed or not":"No",
+        "average GDP":567,
+        "average life expectancy":64,
+        "adult literacy rate":62
+    },
+    {
+        "name":"Malaysia",
+        "developed or not":"No",
+        "average GDP":11406,
+        "average life expectancy":76,
+        "adult literacy rate":95
+    },
+    {
+        "name":"Mali",
+        "developed or not":"No",
+        "average GDP":920,
+        "average life expectancy":59,
+        "adult literacy rate":31
+    },
+    {
+        "name":"Macedonia",
+        "developed or not":"No",
+        "average GDP":6714,
+        "average life expectancy":73,
+        "adult literacy rate":97
+    },
+    {
+        "name":"The Marshall Islands",
+        "developed or not":"No",
+        "average GDP":4463,
+        "average life expectancy":65,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Mauritius",
+        "developed or not":"No",
+        "average GDP":8744,
+        "average life expectancy":74,
+        "adult literacy rate":91
+    },
+    {
+        "name":"Mauritania",
+        "developed or not":"No",
+        "average GDP":2153,
+        "average life expectancy":65,
+        "adult literacy rate":53
+    },
+    {
+        "name":"America",
+        "developed or not":"Yes",
+        "average GDP":69386,
+        "average life expectancy":77,
+        "adult literacy rate":79
+    },
+    {
+        "name":"Mongolia",
+        "developed or not":"No",
+        "average GDP":4418,
+        "average life expectancy":70,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Bangladesh",
+        "developed or not":"No",
+        "average GDP":2147,
+        "average life expectancy":72,
+        "adult literacy rate":75
+    },
+    {
+        "name":"Peru",
+        "developed or not":"No",
+        "average GDP":6799,
+        "average life expectancy":76,
+        "adult literacy rate":94
+    },
+    {
+        "name":"The Federated States of Micronesia",
+        "developed or not":"No",
+        "average GDP":3880,
+        "average life expectancy":68,
+        "adult literacy rate":95
+    },
+    {
+        "name":"Myanmar",
+        "developed or not":"No",
+        "average GDP":1217,
+        "average life expectancy":67,
+        "adult literacy rate":89
+    },
+    {
+        "name":"Moldova",
+        "developed or not":"No",
+        "average GDP":5285,
+        "average life expectancy":72,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Morocco",
+        "developed or not":"No",
+        "average GDP":3620,
+        "average life expectancy":76,
+        "adult literacy rate":74
+    },
+    {
+        "name":"Mozambique",
+        "developed or not":"No",
+        "average GDP":501,
+        "average life expectancy":61,
+        "adult literacy rate":61
+    },
+    {
+        "name":"Mexico",
+        "developed or not":"No",
+        "average GDP":10162,
+        "average life expectancy":75,
+        "adult literacy rate":95
+    },
+    {
+        "name":"Namibia",
+        "developed or not":"No",
+        "average GDP":4842,
+        "average life expectancy":64,
+        "adult literacy rate":92
+    },
+    {
+        "name":"South Africa",
+        "developed or not":"No",
+        "average GDP":6850,
+        "average life expectancy":64,
+        "adult literacy rate":95
+    },
+    {
+        "name":"South Sudan",
+        "developed or not":"No",
+        "average GDP":364,
+        "average life expectancy":58,
+        "adult literacy rate":35
+    },
+    {
+        "name":"Nauru",
+        "developed or not":"No",
+        "average GDP":10139,
+        "average life expectancy":55,
+        "adult literacy rate":96
+    },
+    {
+        "name":"Nicaragua",
+        "developed or not":"No",
+        "average GDP":2177,
+        "average life expectancy":74,
+        "adult literacy rate":83
+    },
+    {
+        "name":"Nepal",
+        "developed or not":"No",
+        "average GDP":1164,
+        "average life expectancy":71,
+        "adult literacy rate":68
+    },
+    {
+        "name":"The Niger",
+        "developed or not":"No",
+        "average GDP":595,
+        "average life expectancy":62,
+        "adult literacy rate":35
+    },
+    {
+        "name":"Nigeria",
+        "developed or not":"No",
+        "average GDP":2089,
+        "average life expectancy":55,
+        "adult literacy rate":62
+    },
+    {
+        "name":"Norway",
+        "developed or not":"Yes",
+        "average GDP":89210,
+        "average life expectancy":83,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Palau",
+        "developed or not":"No",
+        "average GDP":12187,
+        "average life expectancy":70,
+        "adult literacy rate":97
+    },
+    {
+        "name":"Portugal",
+        "developed or not":"Yes",
+        "average GDP":24363,
+        "average life expectancy":80,
+        "adult literacy rate":96
+    },
+    {
+        "name":"Janpan",
+        "developed or not":"Yes",
+        "average GDP":39263,
+        "average life expectancy":84,
+        "adult literacy rate":97
+    },
+    {
+        "name":"Switzerland",
+        "developed or not":"Yes",
+        "average GDP":93507,
+        "average life expectancy":83,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Sweden",
+        "developed or not":"Yes",
+        "average GDP":60204,
+        "average life expectancy":82,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Salvador",
+        "developed or not":"No",
+        "average GDP":4345,
+        "average life expectancy":73,
+        "adult literacy rate":89
+    },
+    {
+        "name":"Samoa",
+        "developed or not":"No",
+        "average GDP":3947,
+        "average life expectancy":73,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Serbia",
+        "developed or not":"No",
+        "average GDP":9178,
+        "average life expectancy":74,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Sierra Leone",
+        "developed or not":"No",
+        "average GDP":521,
+        "average life expectancy":55,
+        "adult literacy rate":43
+    },
+    {
+        "name":"Senegal",
+        "developed or not":"No",
+        "average GDP":1607,
+        "average life expectancy":68,
+        "adult literacy rate":52
+    },
+    {
+        "name":"Cyprus",
+        "developed or not":"Yes",
+        "average GDP":30846,
+        "average life expectancy":81,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Seychelles",
+        "developed or not":"No",
+        "average GDP":14931,
+        "average life expectancy":77,
+        "adult literacy rate":96
+    },
+    {
+        "name":"Saudi Arabia",
+        "developed or not":"No",
+        "average GDP":23507,
+        "average life expectancy":75,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Sao Tome and Principe",
+        "developed or not":"No",
+        "average GDP":2331,
+        "average life expectancy":70,
+        "adult literacy rate":93
+    },
+    {
+        "name":"Saint Kitts and Nevis",
+        "developed or not":"No",
+        "average GDP":16467,
+        "average life expectancy":74,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Saint Lucia",
+        "developed or not":"No",
+        "average GDP":9755,
+        "average life expectancy":76,
+        "adult literacy rate":81
+    },
+    {
+        "name":"San Marino",
+        "developed or not":"Yes",
+        "average GDP":50458,
+        "average life expectancy":83,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Saint Vincent and Grenada",
+        "developed or not":"No",
+        "average GDP":7877,
+        "average life expectancy":72,
+        "adult literacy rate":96
+    },
+    {
+        "name":"Sri Lanka",
+        "developed or not":"No",
+        "average GDP":3743,
+        "average life expectancy":77,
+        "adult literacy rate":92
+    },
+    {
+        "name":"Slovakia",
+        "developed or not":"Yes",
+        "average GDP":21053,
+        "average life expectancy":76,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Slovenia",
+        "developed or not":"Yes",
+        "average GDP":29187,
+        "average life expectancy":80,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Swaziland",
+        "developed or not":"No",
+        "average GDP":4109,
+        "average life expectancy":60,
+        "adult literacy rate":88
+    },
+    {
+        "name":"Sudan",
+        "developed or not":"No",
+        "average GDP":773,
+        "average life expectancy":65,
+        "adult literacy rate":61
+    },
+    {
+        "name":"Suriname",
+        "developed or not":"No",
+        "average GDP":4681,
+        "average life expectancy":71,
+        "adult literacy rate":94
+    },
+    {
+        "name":"Solomon Islands",
+        "developed or not":"No",
+        "average GDP":2303,
+        "average life expectancy":73,
+        "adult literacy rate":77
+    },
+    {
+        "name":"Somalia",
+        "developed or not":"No",
+        "average GDP":487,
+        "average life expectancy":57,
+        "adult literacy rate":5
+    },
+    {
+        "name":"Kyrgyzstan",
+        "developed or not":"No",
+        "average GDP":878,
+        "average life expectancy":71,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Thailand",
+        "developed or not":"No",
+        "average GDP":7406,
+        "average life expectancy":77,
+        "adult literacy rate":94
+    },
+    {
+        "name":"Tanzania",
+        "developed or not":"No",
+        "average GDP":1177,
+        "average life expectancy":65,
+        "adult literacy rate":78
+    },
+    {
+        "name":"Tonga",
+        "developed or not":"No",
+        "average GDP":5002,
+        "average life expectancy":71,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Trinidad and Tobago",
+        "developed or not":"No",
+        "average GDP":15201,
+        "average life expectancy":73,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Tunisia",
+        "developed or not":"No",
+        "average GDP":3867,
+        "average life expectancy":76,
+        "adult literacy rate":79
+    },
+    {
+        "name":"Tuvalu",
+        "developed or not":"No",
+        "average GDP":5833,
+        "average life expectancy":50,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Turkey",
+        "developed or not":"No",
+        "average GDP":9539,
+        "average life expectancy":77,
+        "adult literacy rate":97
+    },
+    {
+        "name":"Turkmenistan",
+        "developed or not":"No",
+        "average GDP":10311,
+        "average life expectancy":68,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Vanuatu",
+        "developed or not":"No",
+        "average GDP":3045,
+        "average life expectancy":70,
+        "adult literacy rate":88
+    },
+    {
+        "name":"Guatemala",
+        "developed or not":"No",
+        "average GDP":4674,
+        "average life expectancy":74,
+        "adult literacy rate":81
+    },
+    {
+        "name":"Venezuela",
+        "developed or not":"No",
+        "average GDP":1686,
+        "average life expectancy":72,
+        "adult literacy rate":97
+    },
+    {
+        "name":"Brunei",
+        "developed or not":"No",
+        "average GDP":44809,
+        "average life expectancy":75,
+        "adult literacy rate":97
+    },
+    {
+        "name":"Ugenda",
+        "developed or not":"No",
+        "average GDP":1000,
+        "average life expectancy":63,
+        "adult literacy rate":77
+    },
+    {
+        "name":"Ukraine",
+        "developed or not":"No",
+        "average GDP":4828,
+        "average life expectancy":71,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Uruguay",
+        "developed or not":"No",
+        "average GDP":16756,
+        "average life expectancy":78,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Uzbekistan",
+        "developed or not":"No",
+        "average GDP":1980,
+        "average life expectancy":71,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Spain",
+        "developed or not":"Yes",
+        "average GDP":30064,
+        "average life expectancy":82,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Greece",
+        "developed or not":"Yes",
+        "average GDP":20256,
+        "average life expectancy":81,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Singapore",
+        "developed or not":"Yes",
+        "average GDP":72766,
+        "average life expectancy":83,
+        "adult literacy rate":97
+    },
+    {
+        "name":"New Zealand",
+        "developed or not":"Yes",
+        "average GDP":48424,
+        "average life expectancy":82,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Hungary",
+        "developed or not":"Yes",
+        "average GDP":18968,
+        "average life expectancy":75,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Jamaica",
+        "developed or not":"No",
+        "average GDP":5525,
+        "average life expectancy":74,
+        "adult literacy rate":88
+    },
+    {
+        "name":"Armenia",
+        "developed or not":"No",
+        "average GDP":4674,
+        "average life expectancy":75,
+        "adult literacy rate":100
+    },
+    {
+        "name":"Yemen",
+        "developed or not":"No",
+        "average GDP":712,
+        "average life expectancy":66,
+        "adult literacy rate":54
+    },
+    {
+        "name":"Iraq",
+        "developed or not":"No",
+        "average GDP":5088,
+        "average life expectancy":70,
+        "adult literacy rate":86
+    },
+    {
+        "name":"Iran",
+        "developed or not":"No",
+        "average GDP":12725,
+        "average life expectancy":76,
+        "adult literacy rate":86
+    },
+    {
+        "name":"Israel",
+        "developed or not":"Yes",
+        "average GDP":51385,
+        "average life expectancy":82,
+        "adult literacy rate":92
+    },
+    {
+        "name":"Italy",
+        "developed or not":"Yes",
+        "average GDP":35473,
+        "average life expectancy":82,
+        "adult literacy rate":99
+    },
+    {
+        "name":"India",
+        "developed or not":"No",
+        "average GDP":2259,
+        "average life expectancy":69,
+        "adult literacy rate":74
+    },
+    {
+        "name":"Indonesia",
+        "developed or not":"No",
+        "average GDP":4355,
+        "average life expectancy":71,
+        "adult literacy rate":96
+    },
+    {
+        "name":"United Kingdom",
+        "developed or not":"Yes",
+        "average GDP":47216,
+        "average life expectancy":80,
+        "adult literacy rate":99
+    },
+    {
+        "name":"Jordan",
+        "developed or not":"No",
+        "average GDP":4417,
+        "average life expectancy":74,
+        "adult literacy rate":98
+    },
+    {
+        "name":"Vietnam",
+        "developed or not":"No",
+        "average GDP":3717,
+        "average life expectancy":75,
+        "adult literacy rate":96
+    },
+    {
+        "name":"Zambia",
+        "developed or not":"No",
+        "average GDP":1067,
+        "average life expectancy":64,
+        "adult literacy rate":87
+    },
+    {
+        "name":"Chad",
+        "developed or not":"No",
+        "average GDP":697,
+        "average life expectancy":54,
+        "adult literacy rate":22
+    },
+    {
+        "name":"Chile",
+        "developed or not":"No",
+        "average GDP":16070,
+        "average life expectancy":80,
+        "adult literacy rate":96
+    },
+    {
+        "name":"Central African",
+        "developed or not":"No",
+        "average GDP":525,
+        "average life expectancy":53,
+        "adult literacy rate":37
+    },
+    {
+        "name":"China",
+        "developed or not":"No",
+        "average GDP":12551,
+        "average life expectancy":77,
+        "adult literacy rate":97
+    }
+]

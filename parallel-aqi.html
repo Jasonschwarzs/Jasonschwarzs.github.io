@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.3/dist/echarts.min.js"></script>
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+const developing = [
+['Arube',98,76,27118],
+['Afghanistan',37,58,598],
+['Albania',98,78,6375],
+['Algeria',81,77,3701],
+['Argentina',99,76,10658],
+['United Arab Emirates',98,78,42884],
+['Oman',96,77,18299],
+['Azerbajian',100,73,5452],
+['Egypt',71,69,3926],
+['Ethiopia',52,42,996],
+["Angola",66,52,2331],
+["Antigua and Barbuda",99,77,14685],
+["Papua New Guinea",62,64,3005],
+["Pakistan",58,67,1562],
+["Bahamas",95,74,28579],
+["Paraguay",95,74,5207],
+["Palestine",97,74,3400],
+["Bahrain",91,77,26136],
+["Panama",96,78,14664],
+["Brazil",93,76,7564],
+["Belarus",100,74,7319],
+["Bulgaria",98,73,11684],
+["Benin",42,62,1398],
+["Poland",99,76,17265],
+["Bolivia",92,71,3369],
+["Belize",77,74,4177],
+["Botswana",87,69,7417],
+["Bhutan",67,72,3185],
+["Burkina Faso",39,61,887],
+["Burundi",68,61,272],
+["Equatorial",94,59,8745],
+["East Timor",68,69,1758],
+["Togo",67,61,992],
+["The Fominican",94,74,8986],
+["Dominic",94,76,7691],
+["Russia",100,71,12173],
+["Ecuador",94,77,5979],
+["Eritrea",77,66,631],
+["The Philippines",96,71,3570],
+["Fiji Islands",99,67,5147],
+["Cape Verde",87,73,3455],
+["The Gambia",51,62,812],
+["Cango(Brazzaville)",80,64,2677],
+["Congo(Kinshasa)",77,60,609],
+["Colombia",96,77,6200],
+["Costa Rica",98,80,12408],
+["Grenada",99,72,9856],
+["Georgia",100,73,5014],
+["Guyana",86,70,9644],
+["Kazakhstan",100,71,10034],
+["Haiti",62,53,1765],
+["Montenegro",99,75,9350],
+["Honduras",89,75,2790],
+["Kiribati",95,68,1706],
+["Djibouti",86,67,3581],
+["Kyrgyzstan",100,71,1276],
+["Guinea",40,61,1230],
+["Guinea-Bissau",46,58,878],
+["Ghana",79,64,2441],
+["Gabon",85,66,8976],
+["Cambodia",81,70,1654],
+["Zimbabwe",89,61,2102],
+["Cameroon",77,59,1655],
+["Qatar",93,80,68581],
+["Comoros",59,64,1406],
+["Ivory Coast",90,58,2522],
+["Kuwait",96,75,28579],
+["Croatia",99,77,17394],
+["Kenya",82,66,2205],
+["Lesotho",77,54,1181],
+["Lao",85,68,2514],
+["Liberia",48,64,724],
+["Libya",86,73,4822],
+["Rwanda",73,69,859],
+["Romania",99,74,14667],
+["Madagascar",77,67,502],
+["Maldives",98,79,13190],
+["Malawi",62,64,567],
+["Malaysia",95,76,11406],
+["Mali",31,59,920],
+["Macedonia",97,73,6714],
+["The Marshall Islands",98,65,4463],
+["Mauritius",91,74,8744],
+["Mauritania",53,65,2153],
+["Mongolia",99,70,4418],
+["Bangladesh",75,72,2147],
+["Peru",94,76,6799],
+["The Federated States of Micronesia",95,68,3880],
+["Myanmar",89,67,1217],
+["Moldova",99,72,5285],
+["Morocco",74,76,3620],
+["Mozambique",61,61,501],
+["Mexico",95,75,10162],
+["Namibia",92,64,4842],
+["South Africa",95,64,6850],
+["South Sudan",35,58,364],
+["Nauru",96,55,10139],
+["Nicaragua",83,74,2177],
+["Nepal",68,71,1164],
+["The Niger",62,55,2089],
+["Nigeria",62,55,2089],
+["Palau",97,70,12187],
+["Salvador",89,73,4345],
+["Samoa",99,73,3947],
+["Serbia",99,74,9178],
+["Sierra Leone",43,55,521],
+["Senegal",52,68,1607],
+["Seychelles",96,77,14931],
+["Saudi Arabia",98,75,23507],
+["Sao Tome and Principe",93,70,2331],
+["Saint Kitts and Nevis",98,74,16467],
+["Saint Lucia",81,76,9755],
+["Saint Vincent and Grenada",96,72,7877],
+["Sri Lanka",92,77,3743],
+["Swaziland",88,60,4109],
+["Sudan",61,65,773],
+["Suriname",94,71,4681],
+["Solomon Islands",77,73,2303],
+["Somalia",5,57,487],
+["Kyrgyzstan",100,71,878],
+["Thailand",94,77,7406],
+["Tanzania",78,65,1177],
+["Tonga",99,71,5002],
+["Trinidad and Tobago",99,73,15201],
+["Tunisia",79,76,3867],
+["Tuvalu",99,50,5833],
+["Turkey",97,77,9539],
+["Turkmenistan",100,68,10311],
+["Vanuatu",88,70,3045],
+["Guatemala",81,74,4674],
+["Venezuela",97,72,1686],
+["Brunei",97,75,44809],
+["Ugenda",77,63,1000],
+["Ukraine",100,71,4828],
+["Uruguay",99,78,16756],
+["Uzbekistan",100,71,1980],
+["Jamaica",88,74,5525],
+["Armenia",100,75,4674],
+["Yemen",54,66,712],
+["Iraq",86,70,5088],
+["Iran",86,76,12725],
+["India",74,69,2259],
+["Indonesia",96,71,4355],
+["Jordan",98,74,4417],
+["Vietnam",96,75,3717],
+["Zambia",87,64,1067],
+["Chad",22,54,697],
+["Chile",96,80,16070],
+["Central African",37,53,525],
+["China",97,77,12551]
+];
+
+
+const developed = [
+['Ireland',98,82,99013],
+['Estonia',100,73,27282],
+["Andorra",100,83,41873],
+["Austria",99,81,53368],
+["Australia",99,83,63477],
+["Barbados",100,79,16875],
+["Belglum",98,81,51873],
+["Iceland",99,83,69033],
+["Puerto Rico",92,80,34173],
+["Denmark",99,81,67590],
+["Germany",100,80,50712],
+["France",99,82,43376],
+["Finland",100,82,53869],
+["South Korea",97,82,34801],
+["The Netherland",100,81,57956],
+["Canada",100,81,52065],
+["Czech",99,78,26401],
+["Latvia",100,75,20675],
+["Lithuania",100,74,23445],
+["Malta",95,82,33329],
+["America",99,77,69386],
+["Norway",100,83,89210],
+["Portugal",96,80,24363],
+["Japan",97,84,39263],
+["Switzerland",100,83,93507],
+["Sweden",99,82,60204],
+["Cyprus",99,81,30846],
+["San Marino",99,83,50458],
+["Slovakia",99,76,21053],
+["Slovenia",100,80,29187],
+["Spain",99,82,30064],
+["Greece",98,81,20256],
+["Singapore",97,83,72766],
+["New Zealand",99,82,48424],
+["Hungary",99,75,18968],
+["Israel",92,82,51385],
+["Italy",99,82,35473],
+["United Kingdom",99,80,47216],
+["Luxembourg",98,80,116356]
+];
+var schema = [
+  { name: 'country', index: 0, text: '国家' },
+  { name: 'adult literacy rate', index: 1, text: '成人识字率' },
+  { name: 'average life expectancy', index: 2, text: '预计寿命' },
+  { name: 'average GDP', index: 3, text: '人均GDP' }
+];
+var lineStyle = {
+  width: 1,
+  opacity: 20
+};
+option = {
+  backgroundColor: '#333',
+  legend: {
+    bottom: 30,
+    data: ['developing', 'developed'],
+    itemGap: 20,
+    textStyle: {
+      color: '#fff',
+      fontSize: 14
+    }
+  },
+  tooltip: {
+    padding: 10,
+    backgroundColor: '#222',
+    borderColor: '#777',
+    borderWidth: 1
+  },
+  parallelAxis: [
+    {
+      dim: 0,
+      name: schema[0].text,
+      inverse: true,
+      nameLocation: 'start',
+      type:"category",
+      data:['China','Afghanistan','Albania','Algeria','Argentina',
+      'United Arab Emirates','Oman','Azerbajian','Egypt',
+      'Ethiopia','Ireland','Estonia',"Andorra","Angola",
+      "Antigua and Barbuda","Austria","Australia","Barbados",
+      "Papua New Guinea","Pakistan","Bahamas","Paraguay",
+      "Palestine","Bahrain","Panama","Brazil","Belarus",
+      "Bulgaria","Benin","Belglum","Iceland","Puerto Rico",
+      "Poland","Bolivia","Belize","Botswana","Bhutan",
+      "Burkina Faso","Burundi","Equatorial","Denmark",
+      "Germany","East Timor","Togo","The Fominican",
+      "Dominic","Russia","Ecuador","Eritrea","France",
+      "The Philippines","Fiji Islands","Finland","Cape Verde",
+      "The Gambia","Cango(Brazzaville)","Congo(Kinshasa)",
+      "Colombia","Costa Rica","Grenada","Georgia","Guyana",
+      "Kazakhstan","Haiti","South Korea","The Netherland",
+      "Montenegro","Honduras","Kiribati","Djibouti","Kyrgyzstan",
+      "Guinea","Guinea-Bissau","Canada","Ghana","Gabon","Cambodia",
+      "Czech","Zimbabwe","Cameroon","Qatar","Comoros",
+      "Ivory Coast","Kuwait","Croatia","Kenya","Latvia","Lesotho",
+      "Lao","Lithuania","Liberia","Libya","Rwanda","Romania",
+      "Madagascar","Maldives","Malta","Malawi","Malaysia",
+      "Mali","Macedonia","The Marshall Islands","Mauritius",
+      "Mauritania","America","Mongolia","Bangladesh","Peru",
+      "The Federated States of Micronesia","Myanmar","Moldova",
+      "Morocco","Mozambique","Mexico","Namibia","South Africa",
+      "South Sudan","Nauru","Nicaragua","Nepal","The Niger","Nigeria",
+      "Norway","Palau","Portugal","Japan","Switzerland","Sweden",
+      "Salvador","Samoa","Serbia","Sierra Leone","Senegal","Cyprus",
+      "Seychelles","Saudi Arabia","Sao Tome and Principe",
+      "Saint Kitts and Nevis","Saint Lucia","San Marino","Saint Vincent and Grenada",
+      "Sri Lanka","Slovakia","Slovenia","Swaziland","Sudan","Suriname",
+      "Solomon Islands","Somalia","Kyrgyzstan","Thailand","Tanzania","Tonga",
+      "Trinidad and Tobago","Tunisia","Tuvalu","Turkey","Turkmenistan",
+      "Vanuatu","Guatemala","Venezuela","Brunei","Ugenda","Ukraine",
+      "Uruguay","Uzbekistan","Spain","Greece","Singapore","New Zealand",
+      "Hungary","Jamaica","Armenia","Yemen","Iraq","Iran","Israel","Italy",
+      "India","Indonesia","United Kingdom","Jordan","Vietnam","Zambia",
+      "Chad","Chile","Central African","Arube","Luxembourg"]
+    },
+    { dim: 1, name: schema[1].text },
+    { dim: 2, name: schema[2].text, max:90},
+    { dim: 3, name: schema[3].text ,max:120000}
+  ],
+  parallel: {
+    left: '5%',
+    right: '18%',
+    bottom:200,
+    parallelAxisDefault: {
+      type: 'value',
+      name: '人均GDP',
+      nameLocation: 'end',
+      nameGap: 20,
+      nameTextStyle: {
+        color: '#fff',
+        fontSize: 12
+      },
+      axisLine: {
+        lineStyle: {
+          color: '#aaa'
+        }
+      },
+      axisTick: {
+        lineStyle: {
+          color: '#777'
+        }
+      },
+      splitLine: {
+        show: false
+      },
+      axisLabel: {
+        color: '#fff'
+      }
+    }
+  },
+  series: [
+    {
+      name: 'developing',
+      type: 'parallel',
+      color:"#02fad5",
+      lineStyle: lineStyle,
+      data: developing
+    },
+    {
+      name: 'developed',
+      type: 'parallel',
+      color:"#f5a802",
+      lineStyle: lineStyle,
+      data: developed
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

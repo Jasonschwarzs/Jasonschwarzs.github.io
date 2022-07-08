@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Embedding Vega-Lite</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
+  </head>
+  <body>
+    <div id="vis"></div>
+    <script type="text/javascript">
+      var yourVlSpec = {
+        $schema: "https://vega.github.io/schema/vega-lite/v5.json",                                     //URL到json模式的一个规范，除了特殊情况，都要设置$schema属性
+        description: "Drag a rectangular brush to show (first 20) selected points in a table.",         //对此项目的一个描述
+        data: {
+          values:[
+    {
+        "name":"Barbados",
+        "developed or not":"Yes",
+        "average GDP":16875,
+        "global average GDP":11053,
+        "average life expectancy":79,
+        "global average life expectancy":72,
+        "adult literacy rate":100,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":22.7,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Hungary",
+        "developed or not":"Yes",
+        "average GDP":18968,
+        "global average GDP":11053,
+        "average life expectancy":75,
+        "global average life expectancy":72,
+        "adult literacy rate":99,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":26.5,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Greece",
+        "developed or not":"Yes",
+        "average GDP":20256,
+        "global average GDP":11053,
+        "average life expectancy":81,
+        "global average life expectancy":72,
+        "adult literacy rate":98,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":17.9,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Latvia",
+        "developed or not":"Yes",
+        "average GDP":20675,
+        "global average GDP":11053,
+        "average life expectancy":75,
+        "global average life expectancy":72,
+        "adult literacy rate":100,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":19.8,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Slovakia",
+        "developed or not":"Yes",
+        "average GDP":21053,
+        "global average GDP":11053,
+        "average life expectancy":76,
+        "global average life expectancy":72,
+        "adult literacy rate":99,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":27.4,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Qatar",
+        "developed or not":"No",
+        "average GDP":68581,
+        "global average GDP":11053,
+        "average life expectancy":80,
+        "global average life expectancy":72,
+        "adult literacy rate":93,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":60.0,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Brunei",
+        "developed or not":"No",
+        "average GDP":44809,
+        "global average GDP":11053,
+        "average life expectancy":75,
+        "global average life expectancy":72,
+        "adult literacy rate":97,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":62.7,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"United Arab Emirates",
+        "developed or not":"No",
+        "average GDP":42884,
+        "global average GDP":11053,
+        "average life expectancy":78,
+        "global average life expectancy":72,
+        "adult literacy rate":98,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":50.8,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Kuwait",
+        "developed or not":"No",
+        "average GDP":28579,
+        "global average GDP":11053,
+        "average life expectancy":75,
+        "global average life expectancy":72,
+        "adult literacy rate":96,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":45.4,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Bahrain",
+        "developed or not":"No",
+        "average GDP":26136,
+        "global average GDP":11053,
+        "average life expectancy":77,
+        "global average life expectancy":72,
+        "adult literacy rate":91,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":44.8,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Arube",
+        "developed or not":"No",
+        "average GDP":27118,
+        "global average GDP":11053,
+        "average life expectancy":76,
+        "global average life expectancy":72,
+        "adult literacy rate":98,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":14.8,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Saudi Arabia",
+        "developed or not":"No",
+        "average GDP":23507,
+        "global average GDP":11053,
+        "average life expectancy":75,
+        "global average life expectancy":72,
+        "adult literacy rate":98,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":43.1,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Lithuania",
+        "developed or not":"Yes",
+        "average GDP":23445,
+        "global average GDP":11053,
+        "average life expectancy":74,
+        "global average life expectancy":72,
+        "adult literacy rate":100,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":25.5,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Portugal",
+        "developed or not":"Yes",
+        "average GDP":24363,
+        "global average GDP":11053,
+        "average life expectancy":80,
+        "global average life expectancy":72,
+        "adult literacy rate":96,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":19.2,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Czech",
+        "developed or not":"Yes",
+        "average GDP":26401,
+        "global average GDP":11053,
+        "average life expectancy":78,
+        "global average life expectancy":72,
+        "adult literacy rate":99,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":31.2,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Estonia",
+        "developed or not":"Yes",
+        "average GDP":27282,
+        "global average GDP":11053,
+        "average life expectancy":73,
+        "global average life expectancy":72,
+        "adult literacy rate":100,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":22.7,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"America",
+        "developed or not":"Yes",
+        "average GDP":69386,
+        "global average GDP":11053,
+        "average life expectancy":77,
+        "global average life expectancy":72,
+        "adult literacy rate":79,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":18.4,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Puerto Rico",
+        "developed or not":"Yes",
+        "average GDP":34173,
+        "global average GDP":11053,
+        "average life expectancy":80,
+        "global average life expectancy":72,
+        "adult literacy rate":92,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":40.1,
+        "average industrial added value of the total GDP":28.3
+    },
+    {
+        "name":"Israel",
+        "developed or not":"Yes",
+        "average GDP":51385,
+        "global average GDP":11053,
+        "average life expectancy":82,
+        "global average life expectancy":72,
+        "adult literacy rate":92,
+        "global adult literacy rate":86,
+        "industrial added value of the total GDP":18.5,
+        "average industrial added value of the total GDP":28.3
+    }
+]
+        },                                                                                              //选择数据来源，导入数据
+        transform: 
+        [
+            {window: [{op: "row_number", as: "row_number"}]}                                                  //这里基于row_number来给每一个元素编号，来选取后面两个图表的前二十个元素}
+        ],
+        hconcat: 
+        [
+            {                                                                                     //(即Horizontal Concatenation) 这里将散点图与后面的图表在水平方向上连接起来
+                params: [{name: "brush", select: "interval"}],                                                  //设置参数,名字是必须的，select有两个选择，一个是point，一个是interval。前者是只能一个一个的点击来进行选择，而后者是通过拖拽的方式来选择多个元素
+                width:100,
+                height:100,
+                mark: "point",                                                                                  //设置散点图
+                encoding: 
+                {
+                    x: {field: "average GDP", type: "quantitative"},                                                //设置x、y轴的选取的维度，类型都是quantitative
+                    y: {field: "average life expectancy", type: "quantitative"},
+                    color: {
+                    condition: {param: "brush", field: 'developed or not', type: "ordinal"},
+                    value:'grey'                                                                                  //根据是否为发展中国家，来设计颜色
+                    }
+                }
+            },
+            {
+                transform: 
+                [
+                    {filter: {param: "brush"}},
+                    {window: [{op: "rank", as: "rank"}]},
+                    {filter: {field: "rank", lt: 20}}                                                                 //选取前二十个元素放在这里
+                ],
+                vconcat:
+                [
+                    {
+                        hconcat: 
+                        [
+                            {
+                                layer:
+                                [
+                                    {
+                                        width:200,
+                                        height:100,
+                                        mark:'bar',
+                                        encoding:
+                                        {
+                                            x:{field:'name',type:'nominal'},
+                                            y:{field:'average GDP',type:'quantitative',title:'average GDP'},
+                                            color:{field:'developed or not'}
+                                        }
+                                    },
+                                    {
+                                        "mark": "rule",
+                                        "encoding": {
+                                            "y": {
+                                            'field':'global average GDP',
+                                            "type": "quantitative"
+                                            },
+                                            "color": {"value": "red"},
+                                            "size": {"value": 3}
+                                    }
+                                    }
+                                ]   
+                            },
+                            {
+                                layer:
+                                [
+                                    {
+                                        width:200,
+                                        height:100,
+                                        mark:'bar',
+                                        encoding:
+                                        {
+                                            x:{field:'name',type:'nominal'},
+                                            y:{field:'average life expectancy',type:'quantitative',title:'average life expectancy'},
+                                            color:{field:'developed or not'}
+                                        }
+                                    },
+                                    {
+                                        "mark": "rule",
+                                        "encoding": {
+                                            "y": {
+                                            'field':'global average life expectancy',
+                                            "type": "quantitative"
+                                            },
+                                            "color": {"value": "red"},
+                                            "size": {"value": 3}
+                                    }
+                                    }
+                                ]   
+                            },
+                            {
+                                layer:
+                                [
+                                    {
+                                        width:200,
+                                        height:100,
+                                        mark:'bar',
+                                        encoding:
+                                        {
+                                            x:{field:'name',type:'nominal'},
+                                            y:{field:'adult literacy rate',type:'quantitative',title:'adult literacy rate'},
+                                            color:{field:'developed or not'}
+                                        }
+                                    },
+                                    {
+                                        "mark": "rule",
+                                        "encoding": {
+                                            "y": {
+                                            'field':'global adult literacy rate',
+                                            "type": "quantitative"
+                                            },
+                                            "color": {"value": "red"},
+                                            "size": {"value": 3}
+                                    }
+                                    }
+                                ]   
+                            },
+                            {
+                                layer:
+                                [
+                                    {
+                                        width:200,
+                                        height:100,
+                                        mark:'bar',
+                                        encoding:
+                                        {
+                                            x:{field:'name',type:'nominal'},
+                                            y:{field:'industrial added value of the total GDP',type:'quantitative'},
+                                            color:{field:'developed or not'}
+                                        }
+                                    },
+                                    {
+                                        "mark": "rule",
+                                        "encoding": {
+                                            "y": {
+                                            'field':'average industrial added value of the total GDP',
+                                            "type": "quantitative",
+                                            'title':'industrial level'
+                                            },
+                                            "color": {"value": "red"},
+                                            "size": {"value": 3}
+                                    }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        hconcat:
+                        [
+                            {
+                                width:120,
+                                mark:'text',
+                                title:'Name of countries',
+                                encoding:
+                                    {
+                                        text:{field:'name',type:'nominal'},
+                                        y:{field:'row_number',type:'ordinal',axis:null}
+                                    }
+                            },
+                            {
+                                width:50,
+                                mark:'text',
+                                title:'average GDP',
+                                encoding:
+                                    {
+                                        text:{field:'average GDP',type:'quantitative'},
+                                        y:{field:'row_number',type:'ordinal',axis:null}
+                                    } 
+                            },
+                            {
+                                width:50,
+                                mark:'text',
+                                title:'average life expectancy',
+                                encoding:
+                                    {
+                                        text:{field:'average life expectancy',type:'quantitative'},
+                                        y:{field:'row_number',type:'ordinal',axis:null}
+                                    }   
+                            },
+                            {
+                                width:50,
+                                mark:'text',
+                                title:'adult literacy rate',
+                                encoding:
+                                    {
+                                        text:{field:'adult literacy rate',type:'quantitative'},
+                                        y:{field:'row_number',type:'ordinal',axis:null}
+                                    }
+                            },
+                            {
+                                width:50,
+                                mark:'text',
+                                title:'industrial level',
+                                encoding:
+                                    {
+                                        text:{field:'industrial added value of the total GDP',type:'quantitative'},
+                                        y:{field:'row_number',type:'ordinal',axis:null}
+                                    }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+}
+
+      vegaEmbed('#vis', yourVlSpec);
+    </script>
+  </body>
+</html>
